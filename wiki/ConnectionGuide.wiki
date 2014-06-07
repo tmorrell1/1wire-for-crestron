@@ -2,4 +2,4 @@
 
 = Electric scheme of the connector =
 
-[https://googledrive.com/host/0B8F7wnwnAleGWmhzZWpKS0FMOXc/scheme.tiff]
+https://googledrive.com/host/0B8F7wnwnAleGWmhzZWpKS0FMOXc/scheme.tiff
