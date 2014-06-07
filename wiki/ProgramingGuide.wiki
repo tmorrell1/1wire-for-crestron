@@ -24,7 +24,7 @@ https://googledrive.com/host/0B8F7wnwnAleGWmhzZWpKS0FMOXc/module.png
 = Parameters =
 
 ||port||Select the port to which the signals  rx$ and tx$ are connected.||
-||license||License key. Without license key module can work in demonstration mode during 1 hour. License key is associated with an address of first sensor. [Read more about licensing https://code.google.com/p/1wire-for-crestron/wiki/GetLicense] ||
+||license||License key. Without license key module can work in demonstration mode during 1 hour. License key is associated with an address of first sensor. [https://code.google.com/p/1wire-for-crestron/wiki/GetLicense Read more about licensing ] ||
 
 = Commissioning =
 
