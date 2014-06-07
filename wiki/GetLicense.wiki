@@ -7,4 +7,5 @@ License key is associated with an address of first sensor. To unlock the module,
 I recommend first sensor used only as a license key and connect it directly to the controller connector. You can also use it to control the temperature in your installation rack.
 
 For receiving a license key send me the address of the first sensor to crestron.ua@gmail.com.
+
 Price of license key is 150 USD.
