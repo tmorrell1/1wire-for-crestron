@@ -2,7 +2,7 @@
 
 = Programing guide =
 
-Software module "DS18B20" designed for reading 1-wire temperature sensors DS18B20 by serial port of Crestron controller. How to connect 1-wire bus to serial port please see [https://code.google.com/p/1wire-for-crestron/wiki/ConnectionGuide Connection guide] . [https://googledrive.com/host/0B8F7wnwnAleGWmhzZWpKS0FMOXc/DS18B20_v1.0.zip You can download example program.]
+Software module "DS18B20" designed for reading 1-wire temperature sensors DS18B20 by serial port of Crestron controller. How to connect 1-wire bus to serial port please see [https://code.google.com/p/1wire-for-crestron/wiki/ConnectionGuide Connection guide] . [https://googledrive.com/host/0B8F7wnwnAleGWmhzZWpKS0FMOXc/ You can download example program.]
 
 <wiki:video url="https://www.youtube.com/watch?v=ocAxn-JHd38"/>
 
