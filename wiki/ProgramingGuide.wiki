@@ -1,0 +1,34 @@
+#summary How to use software module in your program
+
+= Programing guide =
+
+Software module "DS18B20" designed for reading 1-wire temperature sensors DS18B20 by serial port of Crestron controller. How to connect 1-wire to serial port please see "Connection guide".
+
+https://googledrive.com/host/0B8F7wnwnAleGWmhzZWpKS0FMOXc/module.png
+
+= Inputs =
+
+||scan_addr||On rising edge receives sensor address and sends it into a serial join scanned_addr. Only one sensor must be connected in this procedure! Polling must be switched off in this time.||
+|| polling||When its value is high, module polling of the values of all sensors.||
+||rx$||It is a "rx$" serial join of the serial port.||
+||addr$*[n*]||Address of the sensor in 1-wire bus.||
+
+= Outputs =
+
+||val_ok*[n*]||If it value is high, then connection with corresponding sensors is good and its value is correct.||
+||ComSpec$||This serial join must be connected to Device Extender "Packet Transmission" of serial ports slot.||
+||scanned_addr$||String with sensor address, received after pressing digital join "scan_addr".||
+||tx$||It is a "tx$" serial join of the serial port.||
+||val*[n*]||Temperature value of corresponding sensor. Value format XX.X.||
+
+= Parameters =
+
+||port||Select the port to which the signals  rx$ and tx$ are connected.||
+||license||License key. Without license key module can work in demonstration mode during 1 hour. License key is associated with an address of first sensor.||
+
+= Commissioning =
+
+Firstly, you must connect each sensor separately and, pressing the "scan_addr" digital join, will get its address.Then you must paste this addresses in "Serial Send" symbol, connected to corresponding "addr$[n]" serial join in module. Then after compiling and downloading you can switch on digital join "polling" and get temperature values from sensor.
+
+
+
